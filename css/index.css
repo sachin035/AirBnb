@@ -1,0 +1,244 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.topbar-text {
+  background-color: #f7f7f7;
+  height: 60px;
+}
+
+.topbar-text p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 16px;
+  height: 100%;
+}
+.topbar-text p span {
+  text-decoration: underline;
+  margin-left: 10px;
+}
+
+nav {
+  background-color: #fff;
+  border-top: 1px solid #e8e8e8;
+  border-bottom: 1px solid #e8e8e8;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 100px;
+  position: relative;
+}
+
+.nav-profile {
+  display: flex;
+  align-items: center;
+}
+.nav-profile span {
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 10px 10px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+.nav-profile span:hover {
+  background-color: #f7f7f7;
+}
+.globe-icon {
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 100%;
+}
+
+.globe-icon:hover {
+  background-color: #f7f7f7;
+}
+
+.nav-user-profile {
+  border: 1px solid #e8e8e8;
+  padding: 5px 15px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.nav-user-profile:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.user-icon {
+  margin-left: 10px;
+}
+
+.nav-search {
+  display: flex;
+  align-items: center;
+  border: 1px solid #e8e8e8;
+  padding: 10px 20px;
+
+  border-radius: 16px;
+}
+.nav-search span {
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  margin-right: 15px;
+  padding-right: 15px;
+  border-right: 1px solid #e8e8e8;
+}
+.nav-search span:nth-child(3) {
+  border-right: none;
+  padding-right: 0;
+}
+.nav-search span:last-child {
+  border-right: none;
+  margin-right: 0;
+  padding-right: 0;
+  border-radius: 100%;
+  background-color: #ff385c;
+  padding: 10px;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 14px;
+}
+.guest-text {
+  font-weight: 100 !important;
+}
+
+.nav-user-profile-menu {
+  position: absolute;
+  top: 65px;
+  right: 100px;
+  display: none;
+}
+
+.nav-user-profile-menu ul {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background: #fff;
+  padding: 20px 0px;
+  border-radius: 16px;
+  width: 200px;
+}
+.nav-user-profile-menu ul li {
+  list-style: none;
+  padding: 8px 20px;
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-size: 15px;
+}
+
+.nav-user-profile-menu ul li:hover {
+  background-color: #e7e7e7;
+  cursor: pointer;
+}
+.nav-user-profile-menu ul .menu-signup {
+  font-weight: 600 !important;
+}
+
+.nav-user-profile-menu ul li:nth-child(2) {
+  margin-bottom: 8px;
+}
+.nav-user-profile-menu ul li:nth-child(3) {
+  border-bottom: 1px solid #e8e8e8;
+  padding: 0;
+}
+
+.nav-user-profile-menu ul li:nth-child(4) {
+  margin-top: 8px;
+}
+.menu-tab {
+  display: none;
+}
+
+.home-container {
+  padding: 30px 50px;
+}
+
+.category-container {
+  display: flex;
+}
+.category-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #858585;
+  cursor: pointer;
+}
+
+.category-item i {
+  font-size: 20px;
+}
+.category-item span {
+  margin-top: 5px;
+  font-size: 15px;
+  font-family: "Lato", sans-serif;
+}
+
+.category-item:hover {
+  color: #000;
+}
+
+.active {
+  border-bottom: 3px solid #000;
+}
+
+.card-container {
+  margin-top: 50px;
+}
+
+.card-item {
+  width: 280px;
+}
+
+.card-image {
+  width: 100%;
+}
+.card-image img {
+  width: 100%;
+  height: 280px;
+  border-radius: 11px;
+  object-fit: cover;
+}
+
+.card-top {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-top p {
+  font-weight: 100;
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  padding: 0;
+  margin: 0;
+}
+
+.card-title {
+  font-weight: 600 !important;
+}
+
+.card-body p {
+  color: #858585;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+}
+
+.card-price {
+  font-weight: 600;
+  color: #000 !important;
+}
+
+.card-price span {
+  font-weight: 300;
+}
